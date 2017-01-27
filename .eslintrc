@@ -1,9 +1,11 @@
 {
 	"env": {
-		"node": true
+		"node": true,
+    "es6": true,
 	},
 	"plugins": [
-		"nodeca"
+		"nodeca",
+    "eslint-plugin-node"
 	],
 	"rules": {
 		"strict": 0,
@@ -23,6 +25,6 @@
 		"consistent-return": 0,
 		"no-inner-declarations": 1,
 		"no-loop-func": 1,
-		"space-before-function-paren": [2, "never"] 
+		"space-before-function-paren": [2, "never"]
 	}
 }
